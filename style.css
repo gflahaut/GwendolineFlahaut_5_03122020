@@ -1,0 +1,321 @@
+/* 
+#f3ebf3; */
+body {
+margin: 0;
+padding: 0;
+width: 100%;
+background-color:#faf3fa;
+font-size: 16px;
+font-family:  Pattaya;
+}
+header.row{
+  background-color:#f3ebf3;
+  padding: 1em 0;
+  border-radius: 2em;
+  width: 90%;
+  display: flex;
+  margin: auto;
+  margin-top: 1.5em;
+  box-shadow: 0px 3px 7px lightpink;
+}
+header nav, a.cart{
+  width: 100%;
+}
+
+header img{
+  width: 12.5rem;
+  height: 8rem;
+  max-width: 100%;
+  position: relative;
+  bottom: 2rem;
+}
+a{
+  z-index: 1000;
+}
+a.cart, a.logo{
+  padding: 0 !important;
+}
+a.cart{
+  background: url(./image/svg/Supermarket\ Cart\ Vector\ Icons.svg) no-repeat 0 0;
+  width: 200px;
+  height: 8rem;
+  float: right;
+  display: block;
+  position: relative;
+  z-index: 1000;
+}
+span.badge.bg-danger.rounded-pill{
+  background-color: rgb(252, 9, 9)!important;
+}
+a.logo::after{
+  content: url(./image/svg/teddy_bear.svg);
+  width: 23.5rem;
+  height: 8rem;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.cart{
+  margin-right: 2em;
+}
+.row{
+  width: 100%;
+  margin: 0;
+}
+.cards{
+  height: 25rem;
+  width: 70rem;
+  background-color: #f3ebf3;
+  border-radius: 1rem;
+  border: 2.5px solid white;
+  box-shadow: 0 0 16px #0000002e;
+  font-size: 0.85rem;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  cursor: pointer;
+}
+.cards img {    
+  height: 25rem;
+  width: 30rem;
+  vertical-align: baseline;
+  object-fit: scale-down;
+  border-radius: 1rem 0 0 1rem;
+  width: 30rem;
+}
+.cards figcaption{
+  font-size: 1.05em;
+  width: 35rem;
+  margin-left: 1em;
+  display: inline-block;
+}
+.colors{
+  background-color: #f3ebf3;
+  border: 2px solid grey;
+}
+.presentation{
+  width: 50%;
+}
+.rounded{
+  border-radius:2em;
+}
+.col-md-12{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+h1.text-center.col-md-6{
+  margin-top: 0;
+  float: none;
+  left: 5em;
+  text-decoration: underline;
+  margin-top: 0;
+  float: none;
+}
+.productDescritption{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.optionColors{
+  background-color: lightpink;
+}
+.cartbtn{
+  background-color: #f3ebf3;
+  border: 1px solid lightpink;
+  border-radius: 2em;
+  color:lightpink;
+  padding: 1em;
+  margin-top: 9em;
+  margin-bottom: 2em;
+  outline: none;
+}
+#myModal{
+  display: none;
+}
+.cartImg{
+  width: 200px;
+}
+.container{
+  padding: 2em 0;
+  width: 100% !important;
+  background-color: #f3ebf3;
+  border: 1px solid lightpink;
+  box-shadow: 0px 0px 15px lightpink;
+}
+.modal-body{
+  padding: 7.5px !important;
+}
+.modal-body .col-md-12{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.modal-footer button.btn{
+  margin-left: 13em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.5em 0 !important;
+}
+button.close{
+  z-index: 1000;
+}
+.has-error-empty::after{
+  content : 'Veuillez remplir ce champs';
+  display: block;
+  color: black;
+  position: absolute;
+  font-size: 1rem;
+}
+.has-error-content::after{
+  content : 'Le contenu de ce champs est erroné';
+  display: block;
+  color: black;
+  position: absolute;
+  font-size: 1rem;
+}
+.has-success::after{
+  content : 'Ok';
+  display: block;
+  position: absolute;
+  color: green;
+  font-size: 1rem;
+}
+.has-success{
+  border: 1px solid green;
+}
+.has-error, .has-error-content, .has-error-empty{
+  border: 1px solid red;
+}
+.nameid,.id{
+  display: none;
+}
+.mAuto{
+  margin: auto;
+}
+table td, table th{
+  padding: 2em;
+  text-align: center!important;
+}
+table{
+  border-collapse: separate;
+  border-spacing: 0 2em;
+}
+.title tr{
+  background-color: rgba(255, 213, 219, 0.469);
+}
+.total, .modal{
+  background-color: rgba(255, 213, 219, 0.469);
+}
+.modal-content{
+  background-color: #f3ebf3;
+}
+.modal-title{
+  color: #9b0000;
+}
+input,
+textarea {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  background-color: #ebecf0;
+  text-shadow: 1px 1px 0 #fff;
+}
+.form-group {
+  position: relative;
+  padding: 10px 0;
+}
+
+.form-group:first-of-type {
+  padding-top: 0;
+}
+
+.form-group:last-of-type {
+  padding-bottom: 0;
+}
+
+label {
+  color: #9b0000;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  font-size: 17px;
+  box-sizing: border-box;
+  z-index: 2;
+  pointer-events: none;
+  display: block;
+}
+
+.help_block {
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.alert-warning {
+  width: 100%;
+}
+
+textarea {
+  height: 5em;
+}
+
+.space {
+  padding-top: 1em;
+}
+
+.form-control {
+  margin-right: 8px;
+  appearance: none;
+  -webkit-appearance: none;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  border-radius: 2em;
+  color:grey;
+  position: relative;
+  z-index: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+  outline: none;
+}
+
+.form-control:active {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+.form-control:valid ~ label {
+  text-transform: uppercase;
+  font-style: italic;
+}
+.modal-footer button#btnValidateForm{
+  border-radius: 2em !important;
+}
+.modal-content span {
+  font-size: 2em;
+  color: red;
+}
+section{
+  width: 100%;
+  border: lightpink;
+}
+footer{
+  padding-bottom: 2em;
+  border: lightpink;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+}
+footer div.text-center{
+  margin-top: 2em;
+}
+.bold{
+  font-weight: bold;
+}
+.add{
+  text-decoration: solid;
+}
+.add::after{
+  content: '';
+  position: absolute;
+  top: 0; left: 0; 
+  right: 0; bottom: 0;
+}
