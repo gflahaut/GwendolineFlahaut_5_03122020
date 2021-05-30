@@ -26,7 +26,6 @@
                 teddiesQuantity += parseInt(localStorage.getItem('teddy_' + teddyIds[i] + "_qte"));
             }
         }
-        console.log(teddiesQuantity);
         let cartSpan = document.getElementsByClassName('badge')[0];
         cartSpan.innerText = teddiesQuantity;
     }
