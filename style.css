@@ -155,7 +155,7 @@ h1.text-center.col-md-6{
 }
 .modal-header .close{
   z-index: 1000;
-  margin-top: -45px;
+  margin-top: -40px;
 }
 .has-error::after{
   content : 'Veuillez remplir ce champs';
