@@ -157,25 +157,19 @@ h1.text-center.col-md-6{
   z-index: 1000;
   margin-top: -40px;
 }
-.has-error::after{
+.message-error-empty::after{
   content : 'Veuillez remplir ce champs';
   color: red;
   font-size: 1rem;
   padding: 1em;
 }
-.has-error-empty::after{
-  content : 'Veuillez remplir ce champs';
-  color: red;
-  font-size: 1rem;
-  padding: 1em;
-}
-.has-error-content::after{
+.message-error-content::after{
   content : 'Le contenu de ce champs est erroné';
   color: red;
   font-size: 1rem;
   padding: 1em;
 }
-.has-success::after{
+.message-success::after{
   content : 'Ok';
   color: green;
   font-size: 1rem;
@@ -184,7 +178,7 @@ h1.text-center.col-md-6{
 .has-success{
   border: 1px solid green;
 }
-.has-error, .has-error-content, .has-error-empty{
+.has-error{
   border: 1px solid red;
 }
 .nameid,.id{
