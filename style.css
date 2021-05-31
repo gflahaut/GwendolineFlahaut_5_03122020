@@ -157,6 +157,12 @@ h1.text-center.col-md-6{
   z-index: 1000;
   margin-top: -40px;
 }
+.message-error::after{
+  content : 'Veuillez remplir ce champs';
+  color: red;
+  font-size: 1rem;
+  padding: 1em;
+}
 .message-error-empty::after{
   content : 'Veuillez remplir ce champs';
   color: red;
