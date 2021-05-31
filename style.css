@@ -158,18 +158,21 @@ button.close{
 }
 .has-error-empty::after{
   content : 'Veuillez remplir ce champs';
-  color: black;
+  color: red;
   font-size: 1rem;
+  padding: 1em;
 }
 .has-error-content::after{
   content : 'Le contenu de ce champs est erroné';
-  color: black;
+  color: red;
   font-size: 1rem;
+  padding: 1em;
 }
 .has-success::after{
   content : 'Ok';
   color: green;
   font-size: 1rem;
+  padding: 1em;
 }
 .has-success{
   border: 1px solid green;
