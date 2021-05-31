@@ -155,6 +155,7 @@ h1.text-center.col-md-6{
 }
 button.close{
   z-index: 1000;
+  argin-top: -45px;
 }
 .has-error::after{
   content : 'Veuillez remplir ce champs';
