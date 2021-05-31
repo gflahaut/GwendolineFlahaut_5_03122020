@@ -23,7 +23,7 @@ async function apicall(url) {
 //
 (function() {
 let productId= new URLSearchParams(window.location.search).get('product');
-const url = 'http://localhost:3000/api/teddies/'+productId;
+const url = 'https://dry-fjord-55372.herokuapp.com/api/teddies/'+productId;
 apicall(url).then((object) => { 
     showOneTeddy(object);
 })
