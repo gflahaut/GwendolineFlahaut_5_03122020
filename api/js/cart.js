@@ -330,7 +330,7 @@ function sendForm() {
 */
 async function send(contact, arrayProductId){
         try{
-            const url = 'http://localhost:3000/api/teddies/order';
+            const url = 'https://dry-fjord-55372.herokuapp.com/api/teddies/order';
             const response = await fetch(url, {
             method: 'POST',
             headers: {
