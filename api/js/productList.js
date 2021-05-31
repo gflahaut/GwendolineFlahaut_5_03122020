@@ -24,7 +24,7 @@ async function apicall(url) {
  */
 //
 (function() {
-    const url = 'http://localhost:3000/api/teddies/';
+    const url = 'https://dry-fjord-55372.herokuapp.com/api/teddies';
     apicall(url).then((object) => {
         showProduct(object);
         showDetails();
