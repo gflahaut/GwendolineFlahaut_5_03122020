@@ -240,18 +240,20 @@ function validateForm() {
         }
         if (ok && isFilled) {
             x[i].className = 'form-control has-success';
-            x[i].nextElementSibling.className = 'feedback has-success text-center';
+            x[i].nextElementSibling.className = 'feedback message-success text-center';
         } else if (!ok && isFilled) {
-            x[i].nextElementSibling.className = 'feedback has-error-content text-center';
+            x[i].className = 'form-control has-error';
+            x[i].nextElementSibling.className = 'feedback message-error-content text-center';
         } else if (ok && !isFilled) {
-            x[i].nextElementSibling.className = 'feedback has-error-empty text-center';
+            x[i].className = 'form-control has-error';
+            x[i].nextElementSibling.className = 'feedback message-error-empty text-center';
         } else {
             x[i].className = 'form-control has-error';
-            x[i].nextElementSibling.className = 'feedback has-error text-center';
+            x[i].nextElementSibling.className = 'feedback message-error text-center';
 
         }
     }
-    if (document.querySelectorAll('.has-error, .has-error-empty, .has-error-content').length == 0) {
+    if (document.querySelectorAll('.has-error').length == 0) {
         sendForm();
     }
 }
