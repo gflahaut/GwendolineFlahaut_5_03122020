@@ -70,7 +70,7 @@ document.addEventListener('click', function (event){
 
 function showOneTeddy(teddy){
     let container =
-    `<div class="row">;
+    `<div class="row">
         <figure class="col-md-12"> 
             <img src="${teddy.imageUrl}" class="img-responsive rounded presentation col-sm-6 pull-left">
             <figcaption class="pull-right col-md-6 text-center">
