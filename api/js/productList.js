@@ -60,7 +60,7 @@ function showProduct(teddy) {
             `
             <div class="row">
                 <figure class="center-block cards col">
-                    <img class="img-rounded col-md-6" src="${teddy[i].imageUrl}">
+                    <img class="img-rounded col-md-6 center-block" src="${teddy[i].imageUrl}">
                     <figcaption class="text-center row col-md-6">
                         <h1>${teddy[i].name}</h1>
                         <p>${teddy[i].description}</p>
