@@ -71,9 +71,9 @@ document.addEventListener('click', function (event){
 function showOneTeddy(teddy){
     let container =
     `<div class="row">
-        <figure class="col-md-12"> 
-            <img src="${teddy.imageUrl}" class="img-responsive rounded presentation col-sm-6 pull-left">
-            <figcaption class="pull-right col-md-6 text-center">
+        <figure class="col-md-12 center-block"> 
+            <img src="${teddy.imageUrl}" class="img-responsive rounded presentation col-sm-6 center-block">
+            <figcaption class="col-md-6 text-center center-block">
                 <div class="invisible col-md-6">${teddy._id}</div>
                 <h1 class="text-center col-md-6">${teddy.name}</h1>
                 <p class="productDescription h4 col-sm-8 text-center"> description : <br>${teddy.description}</p>
