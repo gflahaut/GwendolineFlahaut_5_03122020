@@ -395,6 +395,9 @@ tr:not(:last-of-type) td:nth-of-type(5):before {
 tr:last-child td:not(:first-child):not(:last-child) {
     display: none;
   }
+button.btn.btn-info.center-block{
+  margin-top:2em;
+  }
 }
 
 
