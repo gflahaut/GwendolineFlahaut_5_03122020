@@ -94,7 +94,9 @@ ul.nav.navbar-nav {
   font-size: 1.05em;
   width: 35rem;
   margin-left: 1em;
-  display: inline-block;
+  display: flex;
+  flex-direction:column;
+  margin:auto;
 }
 .colors{
   background-color: #f3ebf3;
