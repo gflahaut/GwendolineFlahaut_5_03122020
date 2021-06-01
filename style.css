@@ -392,6 +392,9 @@ tr:not(:last-of-type) td:nth-of-type(4):before {
 tr:not(:last-of-type) td:nth-of-type(5):before { 
   content: "Total";
   }
+tr:last-child td:not(:first-child):not(:last-child) {
+    display: none;
+  }
 }
 
 
