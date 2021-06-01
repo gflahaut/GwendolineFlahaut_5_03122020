@@ -26,6 +26,11 @@ async function apicall(url) {
 (function() {
     const url = 'https://dry-fjord-55372.herokuapp.com/api/teddies';
     apicall(url).then((object) => {
+        let allIds=[];
+        for(let y=0; y<object.length; y++){
+            allIds.push(object[y]._id);
+        }
+        localStorage.setItem('_id',JSON.stringify(allIds));
         showProduct(object);
         showDetails();
     })

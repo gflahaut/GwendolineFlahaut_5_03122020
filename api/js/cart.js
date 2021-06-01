@@ -1,6 +1,6 @@
 
 (function () {
-    let teddyIds = ["5be9c8541c9d440000665243", "5beaa8bf1c9d440000a57d94", "5beaaa8f1c9d440000a57d95", "5beaabe91c9d440000a57d96", "5beaacd41c9d440000a57d97"]
+    let teddyIds = JSON.parse(localStorage.getItem('_id'));
 
     let yourCart = document.createElement('div');
     yourCart.setAttribute('class', 'container col-md-12 yourCart block-center text-center');

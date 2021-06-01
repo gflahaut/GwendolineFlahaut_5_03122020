@@ -126,6 +126,7 @@ document.body.innerHTML += `
       localStorage.removeItem(key + "_qte");
     }
   }
+  indexRedirect();
 })();  
   // indexRedirect()
 function indexRedirect() {
