@@ -63,8 +63,8 @@ a.logo::after{
   margin: 0;
 }
 .cards{
-  height: 25rem;
-  width: 70rem;
+  display: flex;
+  flex-direction: column;
   background-color: #f3ebf3;
   border-radius: 1rem;
   border: 2.5px solid white;
