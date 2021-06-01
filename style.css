@@ -331,6 +331,11 @@ footer div.text-center{
   top: 0; left: 0; 
   right: 0; bottom: 0;
 }
+img.img-responsive.rounded.presentation.col-sm-6.block-center{
+  display: flex;
+  margin: auto;
+  width: 90%;
+}
 @media screen and (min-width:640px){
   .cards{
     width: 50%;
