@@ -333,7 +333,7 @@ footer div.text-center{
   top: 0; left: 0; 
   right: 0; bottom: 0;
 }
-figure.col-md-12, figcaption.block-center.col-md-6.text-center,img.img-responsive.rounded.presentation.col-sm-6.block-center{
+figure.col-md-12, figcaption.col-md-6.text-center.center-block,img.img-responsive.rounded.presentation.col-sm-6.block-center{
   display: flex;
   flex-direction : column;
   justify-content : center;
