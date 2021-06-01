@@ -62,7 +62,7 @@ a.logo::after{
   width: 100%;
   margin: 0;
 }
-ul{
+ul.nav.navbar-nav {
   display:inline-flex;
   width:30%;
   flex-direction: row;
